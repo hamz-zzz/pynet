@@ -8,6 +8,8 @@ intf_ip_addr = intf_fields[1]
 intf_line_status = intf_fields[4]
 intf_line_protocol = intf_fields[5]
 
+# intf_name, intf_ip_addr, _, _, intf_line_status, intf_line_protocol = intf_fields
+
 print()
 print("-" * 80)
 print(f"{intf_name=}")
